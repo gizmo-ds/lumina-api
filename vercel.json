@@ -1,0 +1,17 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://github.com/GizmoOAO/lumina-api"
+    }
+  ],
+  "functions": {
+    "api/**/*.[jt]s": { "runtime": "vercel-deno@0.8.0" }
+  },
+  "rewrites": [
+    {
+      "source": "/api/gh/repos/:owner/:repo/releases/latest",
+      "destination": "/api/github/repos/releases/latest.ts"
+    }
+  ]
+}

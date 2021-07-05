@@ -1,0 +1,10 @@
+{
+  "name": "lumina-api",
+  "version": "1.0.0",
+  "repository": "https://github.com/GizmoOAO/lumina-api",
+  "author": "GizmoOAO",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^23.0.1"
+  }
+}
