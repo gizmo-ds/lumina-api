@@ -23,8 +23,8 @@ export default async (req: ServerRequest) => {
     return req.respond({ status: 400, statusText: '400 Bad Request' })
   }
   if (shop.indexOf('booth.pm') === -1) shop += '.booth.pm'
-  const resp = await fetch('https://' + shop)
-
+  const resp = await fetch('https://' + shop).catch(() => undefined)
+  if (!resp) return req.respond({ status: 500 })
   const info: booth = {
     shopName: '',
     nickname: '',
