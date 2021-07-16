@@ -12,6 +12,10 @@
     {
       "source": "/api/gh/repos/:owner/:repo/releases/latest",
       "destination": "/api/github/repos/releases/latest.ts"
+    },
+    {
+      "source": "/api/booth/shop/:name",
+      "destination": "/api/booth/shop.ts"
     }
   ]
 }
