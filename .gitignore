@@ -1,6 +1,4 @@
-.idea/
-.vscode/
-node_modules/
-.vercel/
-
 .env
+dist
+.vscode
+.idea
