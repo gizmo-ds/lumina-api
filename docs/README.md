@@ -1,7 +1,5 @@
 # GitHub
 
-Docs: [https://liuli.lol/lumina-api](https://liuli.lol/lumina-api)
-
 ## Get the latest release
 
 > `GET` /gh/repos/{owner}/{repo}/releases/latest

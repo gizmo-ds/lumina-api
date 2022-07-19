@@ -1,6 +1,6 @@
 # lumina-api
 
-Docs: [https://liuli.lol/lumina-api](https://liuli.lol/lumina-api)
+Docs: [https://gizmooao.github.io/lumina-api/](https://gizmooao.github.io/lumina-api/)
 
 ## Thanks
 
